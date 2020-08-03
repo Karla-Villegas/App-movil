@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/bg_color"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/Txt_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Registro de usuario"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/txt_RegNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Nombre"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/txt_RegUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Usuario"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/txt_RegContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/txt_RegEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Edad"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:background="@drawable/bnt_inicio"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+
+        />
+
+
+</LinearLayout>
